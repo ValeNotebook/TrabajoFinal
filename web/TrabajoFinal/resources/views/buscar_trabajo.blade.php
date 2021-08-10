@@ -1,38 +1,111 @@
 @extends('layouts.master')
 
 
-
-
-
 @section("contenido")
 
-<link rel="stylesheet" href="{{asset('css/style.css')}}">
-
-<div style="margin-bottom: 50px;">
-	Artículo: <a href="https://iborra.es/blog/barra-de-busqueda/">https://iborra.es/blog/barra-de-busqueda/</a>
-	</div>
-	
-	<section class="section section-default" align="center" style="text-align: -moz-center; text-align: center; background:none; border-bottom: 5px solid #282828;">
-	 <div class="col-md-12">
-		<div id="sb-search" class="sb-search">
-		  <form>
-			<input class="sb-search-input" placeholder="Barra de búsqueda expandible..." type="text" name="search">
-			<input class="sb-search-submit" type="submit">
-			  <span class="sb-icon-search"></span>
-		  </form>
+<!-- Bottom Bar Start -->
+<div class="bottom-bar">
+	<div class="container-fluid">
+		<div class="row align-items-center">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6">
+				<div class="search">
+					<input type="text" placeholder="Search">
+					<button><i class="fa fa-search"></i></button>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="user">
+					<a href="wishlist.html" class="btn wishlist">
+						<i class="fa fa-heart"></i>
+						<span>(0)</span>
+					</a>
+				</div>
+			</div>
 		</div>
-	   <h4 class="mb-none" style="color:#282828; float:left; position:absolute; margin-top: -7px; font-size:16px;">BARRA DE BÚSQUEDA EXPANDIBLE</h4>
-	 </div>
-	</section>
+	</div>
+</div>
+<!-- Bottom Bar End --> 
 
-
+ <!-- Review Start -->
+ <div class="review">
+	<div class="container-fluid">
+		<div class="row align-items-center review-slider normal-slider">
+			<div class="col-md-6">
+				<div class="review-slider-item">
+					<div class="review-img">
+						
+					</div>
+					<div class="review-text">
+						<h2>Nombre De Usuario</h2>
+						<h3>Tipo De Uusario</h3>
+						<div class="ratting">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<p>
+							Aqui Va Una Valoracion Del Usuario A La Pagina
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="review-slider-item">
+					<div class="review-img">
+						
+					</div>
+					<div class="review-text">
+						<h2>Nombre De Usuario</h2>
+						<h3>Tipo De Uusario</h3>
+						<div class="ratting">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<p>
+							Aqui Va Una Valoracion Del Usuario A La Pagina
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="review-slider-item">
+					<div class="review-img">
+						
+					</div>
+					<div class="review-text">
+						<h2>Nombre De Usuario</h2>
+						<h3>Tipo De Uusario</h3>
+						<div class="ratting">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<p>
+							Aqui Va Una Valoracion Del Usuario A La Pagina
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 @endsection
+
+
 
 @section("javascript")
 
-	<script src="{{asset('javascript/busqueda.js')}}"></script>
-
-
     
 @endsection
+
+

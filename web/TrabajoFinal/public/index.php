@@ -2,6 +2,11 @@
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
+use App\Http\Controllers\BusquedaController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PublicacionController;
+use App\Http\Controllers\UdsuarioController;
+
 
 define('LARAVEL_START', microtime(true));
 
@@ -53,3 +58,5 @@ $response = tap($kernel->handle(
 ))->send();
 
 $kernel->terminate($request, $response);
+
+

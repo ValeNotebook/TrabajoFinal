@@ -43,21 +43,21 @@
                                                 <td>1</td>
                                                 <td>Nombre de la Publicacion</td>
                                                 <td>09 Agosto 2021</td>                                                
-                                                <td>Aprovado</td>
+                                                <td>Aprobado</td>
                                                 <td><button class="btn">Ver</button></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
                                                 <td>Nombre de la Publicacion</td>
                                                 <td>09 Agosto 2021</td>                                               
-                                                <td>Aprovado</td>
+                                                <td>Aprobado</td>
                                                 <td><button class="btn">Ver</button></td>
                                             </tr>
                                             <tr>
                                                 <td>3</td>
                                                 <td>Nombre de la Publicacion</td>
                                                 <td>09 Agosto 2021</td>
-                                                <td>Aprovado</td>
+                                                <td>Aprobado</td>
                                                 <td><button class="btn">Ver</button></td>
                                             </tr>
                                         </tbody>

@@ -50,11 +50,11 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <i class="fa fa-envelope"></i>
-                        soporte.buscartrabajo@email.com
+                        soporte.buscartrabajo@gmail.com
                     </div>
                     <div class="col-sm-6">
                         <i class="fa fa-phone-alt"></i>
-                        +5686439424
+                        +56986439424
                     </div>
                 </div>
             </div>
@@ -75,9 +75,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"  href="{{route('crear_publicacion')}}" style="color:#AAD8D3">Crear Publicacion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="{{route('mostrar_perfil')}}" style="color:#AAD8D3">Mostrar Pefil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"  href="{{route('crear_perfil')}}" style="color:#AAD8D3">Perfil</a>
@@ -113,7 +110,8 @@
     <script src="{{asset('lib/slick/slick.min.js')}}"></script>
     
     <!-- Template Javascript -->
-    <script src="{{asset('js/main.js')}}"></script>
+    <script src="{{asset('javascript/main.js')}}"></script>
+    <script src="{{asset('javascript/publicacion.js')}}"></script>
 
     @yield("javascript")
 

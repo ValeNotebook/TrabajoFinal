@@ -3,19 +3,19 @@
 @section("contenido")
 
 
-<!-- Breadcrumb Start -->
+<!-- Barra de navegacion incompleta --
 <div class="breadcrumb-wrap">
   <div class="container-fluid">
       <ul class="breadcrumb">
           <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item"><a href="#">Products</a></li>
-          <li class="breadcrumb-item active">Login & Register</li>
+          <li class="breadcrumb-item active">Logearse y Registrarse</li>
       </ul>
   </div>
 </div>
-<!-- Breadcrumb End -->
+-- Breadcrumb End -->
 
-<!-- Login Start -->
+
+<!-- Comienzo del login -->
 <div class="login">
   <div class="container-fluid">
       <div class="row">
@@ -23,31 +23,31 @@
               <div class="register-form">
                   <div class="row">
                       <div class="col-md-6">
-                          <label>First Name</label>
-                          <input class="form-control" type="text" placeholder="First Name">
+                          <label>Nombre</label>
+                          <input class="form-control" type="text" placeholder="Nombre">
                       </div>
                       <div class="col-md-6">
-                          <label>Last Name"</label>
-                          <input class="form-control" type="text" placeholder="Last Name">
+                          <label>Apellido</label>
+                          <input class="form-control" type="text" placeholder="Apellido">
                       </div>
                       <div class="col-md-6">
                           <label>E-mail</label>
                           <input class="form-control" type="text" placeholder="E-mail">
                       </div>
                       <div class="col-md-6">
-                          <label>Mobile No</label>
-                          <input class="form-control" type="text" placeholder="Mobile No">
+                          <label>Numero Telefonico</label>
+                          <input class="form-control" type="text" placeholder="Numero de Telefono">
                       </div>
                       <div class="col-md-6">
-                          <label>Password</label>
-                          <input class="form-control" type="text" placeholder="Password">
+                          <label>Contraseña</label>
+                          <input class="form-control" type="text" placeholder="Contraseña">
                       </div>
                       <div class="col-md-6">
-                          <label>Retype Password</label>
-                          <input class="form-control" type="text" placeholder="Password">
+                          <label>Verifique Contraseña</label>
+                          <input class="form-control" type="text" placeholder="Contraseña">
                       </div>
                       <div class="col-md-12">
-                          <button class="btn">Submit</button>
+                          <button class="btn">Registrarme</button>
                       </div>
                   </div>
               </div>
@@ -56,21 +56,21 @@
               <div class="login-form">
                   <div class="row">
                       <div class="col-md-6">
-                          <label>E-mail / Username</label>
+                          <label>E-mail / Nombre de Usuario</label>
                           <input class="form-control" type="text" placeholder="E-mail / Username">
                       </div>
                       <div class="col-md-6">
-                          <label>Password</label>
-                          <input class="form-control" type="text" placeholder="Password">
+                          <label>Contraseña</label>
+                          <input class="form-control" type="text" placeholder="Contraseña">
                       </div>
                       <div class="col-md-12">
                           <div class="custom-control custom-checkbox">
                               <input type="checkbox" class="custom-control-input" id="newaccount">
-                              <label class="custom-control-label" for="newaccount">Keep me signed in</label>
+                              <label class="custom-control-label" for="newaccount">Mantenme Conectado</label>
                           </div>
                       </div>
                       <div class="col-md-12">
-                          <button class="btn">Submit</button>
+                          <button class="btn">Ingresar</button>
                       </div>
                   </div>
               </div>
@@ -78,7 +78,7 @@
       </div>
   </div>
 </div>
-<!-- Login End -->
+<!-- Login Fin -->
 
  <!-- Pie de Pagina -->
  <div class="footer">

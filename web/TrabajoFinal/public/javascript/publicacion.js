@@ -30,9 +30,5 @@ tinymce.init({
     let descripcion=tinymce.get("textito").getContent();
 
 
-    }
+    });
     
-
-
-
-
